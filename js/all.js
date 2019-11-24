@@ -1,0 +1,1 @@
+window.onload=function(t){for(var e=document.querySelectorAll(".brands__descr__sub input"),o=document.querySelector(".value"),n=0;n<e.length;n++)e[n].onclick=function(){this.classList.toggle("input-active"),c()};function c(){for(var t=0,n=0;n<e.length;n++)e[n].classList.contains("input-active")&&(t+=parseInt(e[n].getAttribute("data-price")));o.innerHTML=t,console.log(t)}};
