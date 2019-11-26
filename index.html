@@ -13,49 +13,35 @@
     <header >
         <div class="wrapper">
             <div class="nav">
-                <div class="nav__lang">
-                    <div>
-                        <h3>Language: </h3>
-                    </div>
-                    <div>
-                        <select name="language" id="">
-                            <option value="">English</option>
-                            <option value="">Russian</option>
-                        </select>
-                    </div>
-                    <div class="nav__usd">
-                        <div class="">
-                            <h3>Currence: </h3>
-                        </div>
-                        <div>
-                            <select name="language" id="">
-                                <option value="">USD</option>
-                                <option value="">RUB</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav__users">
-                    <div>
-                        <span id="trigger" class="nav__users__gamburg">
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </span>
-                        
-
-                        <ul id="menu">
-                            <li><a href="">Account</a> </li>
-                            <li><a href="">Wishlist</a> </li>
-                            <li><a href="">Checkout</a> </li>
-                            <li><a href="">Log In</a> </li>
-                            <li><a href="">Sing Up</a> </li>
+                <nav>
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                        <ul class="nav__menu touch" id="touch">
+                            <li><div class="nav__menu__lang">
+                                    <h3>Language: </h3>
+                                    <select name="language" id="">
+                                        <option value="">English</option>
+                                        <option value="">Russian</option>
+                                    </select>
+                                </div></li>
+                            <li><div class="nav__menu__usd">
+                                    <h3>Currence: </h3>
+                                    <select name="language" id="">
+                                        <option value="">USD</option>
+                                        <option value="">RUB</option>
+                                    </select>
+                                </div></li>
+                            <li class="lis"><a href="">Account</a> </li>
+                            <li class="lis"><a href="">Wishlist</a> </li>
+                            <li class="lis"><a href="">Checkout</a> </li>
+                            <li class="lis"><a href="">Log In</a> </li>
+                            <li class="lis"><a href="">Sing Up</a> </li>
                         </ul>
-                    </div>
+                        <span class="toggle">☰</span>
+                    </label>
                     
-                </div>
+                </nav>
             </div>
-            
         </div>
     </header>
 
